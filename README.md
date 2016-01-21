@@ -1,4 +1,4 @@
-#`django-ajax-favorite` Scarlet
+#`django-ajax-favorite-like` Scarlet
 
 `django-ajax-favorite-like` is a favoriting/liking application for Django-powered websites.
 
@@ -13,7 +13,7 @@ In addition, related functionalities like thumbs up, vote, like, follow are also
 
 Installation is available via `pip`
 
-`$ pip install django-ajax-favorite`
+`$ pip install django-ajax-favorite-like`
 
 or via source on github
 
