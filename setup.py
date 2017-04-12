@@ -23,6 +23,7 @@ setup(
         'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
     ],
     description='Associates favorite functionality with any given model.',
     long_description='In addition like, vote, thumbs up  and follow functionalities are also supported',
