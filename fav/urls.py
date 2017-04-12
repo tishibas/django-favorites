@@ -1,11 +1,7 @@
-from django.conf.urls import patterns, url
-from views import FavAlterView
+from django.conf.urls import url
+from . import views
 
 
-urlpatterns = patterns(
-    '',
-    url(
-        r'^alter/fav/$',
-        FavAlterView.as_view(), name='fav-alter'),
-
-)
+urlpatterns = [
+    url(r'^alter/fav/$', views.FavAlterView.as_view(), name='fav-alter'),
+]

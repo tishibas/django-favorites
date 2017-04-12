@@ -38,11 +38,11 @@ INSTALLED_APPS = (
 In your urls.py:
 
 ```python
-urlpatterns = patterns('',
+urlpatterns = [
     ...
     url(r'^fav/', include('fav.urls')),
     ...
-)
+]
 ```
 
 

@@ -3,7 +3,7 @@ from setuptools import find_packages
 
 setup(
     name='django-ajax-favorite',
-    version='1.0.0.dev1',
+    version='1.0.0.dev2',
     author=u'DREIDEV',
     author_email='info@dreidev.com',
     url='https://github.com/dreidev/django-favorites',
