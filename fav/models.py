@@ -14,3 +14,4 @@ class Favorite(models.Model):
     content_object = GenericForeignKey('content_type', 'object_id')
     user = models.ForeignKey(User, null=True, blank=True)
     cookie = models.CharField(null=True, max_length=256, blank=True)
+    created = models.DateTimeField(auto_now_add=True)
